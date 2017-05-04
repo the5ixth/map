@@ -1,0 +1,46 @@
+img {
+  position: absolute;
+}
+
+.vk {
+  -webkit-filter: hue-rotate(90deg) invert(75%) brightness(95%);
+  filter: hue-rotate(90deg) invert(75%) brightness(95%) ;
+}
+.kn {
+  -webkit-filter: hue-rotate(0deg) grayscale(50%);
+  filter: hue-rotate(0deg) grayscale(50%);
+}
+
+.sm {
+  -webkit-filter: hue-rotate(120deg) brightness(90%) grayscale(50%);
+  filter: hue-rotate(120deg) brightness(90%) grayscale(50%);
+}
+
+.vk-frontline {
+  -webkit-filter: hue-rotate(90deg) invert(100%) brightness(75%);
+  filter: hue-rotate(90deg) invert(100%) brightness(75%);
+}
+.kn-frontline {
+  -webkit-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
+}
+
+.sm-frontline {
+  -webkit-filter: hue-rotate(120deg) brightness(90%);
+  filter: hue-rotate(120deg) brightness(90%);
+}
+
+
+.vk-isolated {
+  -webkit-filter: hue-rotate(90deg) invert(100%) brightness(75%) opacity(15%);
+  filter: hue-rotate(90deg) invert(100%) brightness(75%) opacity(15%);
+}
+.kn-isolated {
+  -webkit-filter: hue-rotate(0deg) opacity(15%);
+  filter: hue-rotate(0deg) opacity(15%);
+}
+
+.sm-isolated {
+  -webkit-filter: hue-rotate(120deg) brightness(90%) opacity(15%);
+  filter: hue-rotate(120deg) brightness(90%) opacity(15%);
+}

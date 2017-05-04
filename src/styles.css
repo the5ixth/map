@@ -1,1 +1,255 @@
-/* You can add global styles to this file, and also import other style files */
+img{
+	position: absolute;
+	display: block;
+}
+
+#loading{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#map_div{
+	display: block;
+}
+#t1 {
+	margin-top: 178px;
+	margin-left: 50px;
+}
+#t2{
+	margin-top: 314px;
+	margin-left: 55px;
+}
+#t3{
+	margin-top: 363px;
+	margin-left: 64px;
+}
+#t4{
+	margin-top: 405px;
+	margin-left: 78px;
+}
+#t5{
+	margin-top: 461px;
+	margin-left: 99px;
+}
+#t6{
+	margin-top: 539px;
+	margin-left: 143px;
+}
+#t7{
+	margin-top: 548px;
+	margin-left: 210px;
+}
+#t8{
+	margin-top: 576px;
+	margin-left: 268px;
+}
+#t9{
+	margin-top: 608px;
+	margin-left: 363px
+}
+#t10{
+	margin-top: 306px;
+	margin-left: 171px;
+}
+#t11{
+	margin-top: 380px;
+	margin-left: 193px;
+}
+#t12{
+	margin-top: 413px;
+	margin-left: 255px;
+}
+#t13{
+	margin-top: 445px;
+	margin-left: 184px;
+}
+#t14{
+	margin-top: 465px;
+	margin-left: 219px;
+}
+#t15{
+	margin-top: 474px;
+	margin-left: 284px;
+}
+#t16{
+	margin-top: 246px;
+	margin-left: 162px;
+}
+#t17{
+	margin-top: 303px;
+	margin-left: 231px;
+}
+#t18{
+	margin-top: 396px;
+	margin-left: 300px;
+}
+#t19{
+	margin-top: 459px;
+	margin-left: 314px;
+}
+#t20{
+	margin-top: 558px;
+	margin-left: 367px;
+}
+#t21{
+	margin-top: 618px;
+	margin-left: 446px;
+}
+#t22{
+	margin-top: 592px;
+	margin-left: 539px;
+}
+#t23{
+	margin-top: 572px;
+	margin-left: 621px;
+}
+#t24{
+	margin-top: 542px;
+	margin-left: 660px;
+}
+#t25{
+	margin-top: 475px;
+	margin-left: 725px;
+}
+#t26{
+	margin-top: 413px;
+	margin-left: 750px;
+}
+#t27{
+	margin-top: 364px;
+	margin-left: 740px;
+}
+#t28{
+	margin-top: 319px;
+	margin-left: 723px;
+}
+#t29{
+	margin-top: 242px;
+	margin-left: 700px;
+}
+#t30{
+	margin-top: 498px;
+	margin-left: 534px;
+}
+#t31{
+	margin-top: 500px;
+	margin-left: 601px;
+}
+#t32{
+	margin-top: 450px;
+	margin-left: 551px;
+}
+#t33{
+	margin-top: 450px;
+	margin-left: 652px;
+}
+#t34{
+	margin-top: 416px;
+	margin-left: 630px;
+}
+#t35{
+	margin-top: 363px;
+	margin-left: 567px;
+}
+#t36{
+	margin-top: 541px;
+	margin-left: 433px;
+}
+#t37{
+	margin-top: 482px;
+	margin-left: 431px;
+}
+#t38{
+	margin-top: 380px;
+	margin-left: 436px;
+}
+#t39{
+	margin-top: 328px;
+	margin-left: 503px;
+}
+#t40{
+	margin-top: 290px;
+	margin-left: 595px;
+}
+#t41 {
+    margin-top: 148px;
+    margin-left: 600px;	
+}
+#t42 {
+    margin-top: 121px;
+    margin-left: 542px;
+}
+#t43 {
+    margin-top: 91px;
+    margin-left: 531px;
+}
+#t44 {
+    margin-top: 62px;
+    margin-left: 484px;
+}
+#t45 {
+    margin-top: 49px;
+    margin-left: 391px;
+}
+#t46 {
+    margin-top: 50px;
+    margin-left: 333px;
+}
+#t47 {
+    margin-top: 67px;
+    margin-left: 225px;
+}
+#t48 {
+    margin-top: 99px;
+    margin-left: 182px;
+}
+#t49 {
+    margin-top: 117px;
+    margin-left: 88px;
+}
+#t50 {
+    margin-top: 191px;
+    margin-left: 440px;
+}
+#t51 {
+    margin-top: 158px;
+    margin-left: 404px;
+}
+#t52 {
+    margin-top: 208px;
+    margin-left: 360px;
+}
+#t53 {
+    margin-top: 113px;
+    margin-left: 380px;
+}
+#t54 {
+    margin-top: 159px;
+    margin-left: 302px;
+}
+#t55 {
+    margin-top: 181px;
+    margin-left: 257px;
+}
+#t56 {
+    margin-top: 220px;
+    margin-left: 577px;
+}
+#t57 {
+    margin-top: 251px;
+    margin-left: 462px;
+}
+#t58 {
+    margin-top: 282px;
+    margin-left: 321px;
+}
+#t59 {
+    margin-top: 289px;
+    margin-left: 262px;
+}
+#t60 {
+    margin-top: 200px;
+    margin-left: 185px;
+}
+
+

@@ -4,17 +4,29 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UiComponent } from './ui/ui.component';
+import { MapComponent } from './map/map.component';
+import { ForhonorService } from './forhonor.service';
+import { TileComponent } from './tile/tile.component';
+
+import { PopoverModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UiComponent,
+    MapComponent,
+    TileComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    PopoverModule.forRoot(),
     HttpModule
   ],
-  providers: [],
+  providers: [
+    ForhonorService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
