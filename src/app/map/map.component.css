@@ -8,3 +8,15 @@ img{
 	display: block;
 }
 
+.right_box{
+	background-color: lightgray;
+	border-radius: 0px 0px 0px 10px;
+	position: absolute;
+	right: 15px;
+	width: 250px;
+	height: 690px;
+}
+
+.mg-10{
+	margin: 10px;
+}

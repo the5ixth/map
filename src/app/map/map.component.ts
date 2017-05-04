@@ -8,6 +8,7 @@ import { ForhonorService } from '../forhonor.service';
 })
 export class MapComponent implements OnInit {
   tiles: Object;
+  dta: Object;
   errorMsg: any;
   fhSub: any;
 
@@ -17,6 +18,7 @@ export class MapComponent implements OnInit {
     this.fhSub = this.fhService.getState().subscribe(
       data => {
         this.tiles = data['locationsMap'];
+        this.dta = data;
       },
       error => {
         this.errorMsg = error;
