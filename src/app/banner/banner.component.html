@@ -1,0 +1,59 @@
+<template #pop>
+  <div>
+  </div>
+</template>
+
+<div class="container-fluid banner" >
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Season: {{dta?.currentSeason}}</h2>
+    </div>
+    <div class="col-sm-4">
+      <h2>Round: {{dta?.currentRound}}</h2>
+    </div>
+    <div class="col-sm-4">
+      <h2>Turn: {{dta?.currentTurn}}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="../../assets/images/kn_logo.png" [popover]="pop"  popoverTitle="Deus Vult">
+      <h2>
+        Knights: 
+        {{dta?.turnScoreAtTurnBeginning.kn}} 
+        <span class="winning" *ngIf="dta?.predictiveTurnScore.kn - dta?.turnScoreAtTurnBeginning.kn > 0">
+          +{{dta?.predictiveTurnScore.kn - dta?.turnScoreAtTurnBeginning.kn }}
+        </span> 
+        <span class="losing" *ngIf="dta?.predictiveTurnScore.kn - dta?.turnScoreAtTurnBeginning.kn < 0">
+          {{dta?.predictiveTurnScore.kn - dta?.turnScoreAtTurnBeginning.kn }}
+        </span>
+      </h2>
+    </div>
+    <div class="col-sm-4">
+      <img src="../../assets/images/vk_logo.png" >
+      <h2>
+        Viking: 
+        {{dta?.turnScoreAtTurnBeginning.vk}} 
+        <span class="winning" *ngIf="dta?.predictiveTurnScore.vk - dta?.turnScoreAtTurnBeginning.vk > 0">
+          +{{dta?.predictiveTurnScore.vk - dta?.turnScoreAtTurnBeginning.vk }}
+        </span> 
+        <span class="losing" *ngIf="dta?.predictiveTurnScore.vk - dta?.turnScoreAtTurnBeginning.vk < 0">
+          {{dta?.predictiveTurnScore.vk - dta?.turnScoreAtTurnBeginning.vk }}
+        </span>
+      </h2>
+    </div>
+    <div class="col-sm-4">
+      <img src="../../assets/images/sm_logo.png" >
+      <h2>
+        Samurai: 
+        {{dta?.turnScoreAtTurnBeginning.sm}} 
+        <span class="winning" *ngIf="dta?.predictiveTurnScore.sm - dta?.turnScoreAtTurnBeginning.sm > 0">
+          +{{dta?.predictiveTurnScore.sm - dta?.turnScoreAtTurnBeginning.sm }}
+        </span> 
+        <span class="losing" *ngIf="dta?.predictiveTurnScore.sm - dta?.turnScoreAtTurnBeginning.sm < 0">
+          {{dta?.predictiveTurnScore.sm - dta?.turnScoreAtTurnBeginning.sm }}
+        </span>
+      </h2>
+    </div>
+  </div>
+</div>

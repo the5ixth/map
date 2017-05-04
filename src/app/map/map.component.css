@@ -1,5 +1,6 @@
 #map_div{
 	display: block;
+	position: relative;
   background-color: black;
 }
 img{

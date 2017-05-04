@@ -1,6 +1,9 @@
 img{
-	position: absolute;
 	display: block;
+}
+`
+body{
+	background-color: gray;
 }
 
 #loading{
@@ -252,4 +255,300 @@ img{
     margin-left: 185px;
 }
 
-
+#x1 {
+    margin-top: 251px;
+    margin-left: 98px;
+    height: 30px;
+}
+#x2{
+	margin-top: 326px;
+	margin-left: 102px;
+	height:30px;
+}
+#x3{
+	margin-top: 371px;
+	margin-left: 103px;
+	height: 30px;
+}
+#x4{
+	margin-top: 421px;
+	margin-left: 107px;
+	height: 30px;
+}
+#x5{
+	margin-top: 490px;
+	margin-left: 122px;
+}
+#x6{
+	margin-top: 562px;
+	margin-left: 172px;
+	height: 30px;
+}
+#x7{
+	margin-top: 580px;
+	margin-left: 236px;
+	height: 30px;
+}
+#x8{
+	margin-top: 618px;
+	margin-left: 308px;
+	height: 30px;
+}
+#x9{
+    margin-top: 627px;
+    margin-left: 392px;
+    height: 30px;
+}
+#x10{
+	margin-top: 352px;
+	margin-left: 213px;
+	height: 30px;
+}
+#x11{
+	margin-top: 426px;
+	margin-left: 210px;
+	height: 30px;
+}
+#x12{
+	margin-top: 426px;
+	margin-left: 270px;
+	height: 30px;
+}
+#x13{
+	margin-top: 488px;
+	margin-left: 196px;
+	height: 30px;
+}
+#x14{
+	margin-top: 508px;
+	margin-left: 248px;
+	height:30px;
+}
+#x15{
+	margin-top: 543px;
+	margin-left: 308px;
+	height: 30px;
+}
+#x16{
+	margin-top: 268px;
+	margin-left: 186px;
+	height: 30px;
+}
+#x17{
+	margin-top: 325px;
+	margin-left: 251px;
+	height: 30px;
+}
+#x18{
+	margin-top: 412px;
+	margin-left: 360px;
+	height: 30px
+}
+#x19{
+	margin-top: 493px;
+	margin-left: 359px;
+	height: 30px;
+}
+#x20{
+	margin-top: 573px;
+	margin-left: 387px;
+	height: 30px;
+}
+#x21{
+	margin-top: 641px;
+	margin-left: 485px;
+	height: 30px;
+}
+#x22{
+	margin-top: 628px;
+	margin-left: 578px;
+	height: 30px;
+}
+#x23{
+    margin-top: 614px;
+    margin-left: 641px;
+    height: 30px;
+}
+#x24{
+	margin-top: 574px;
+	margin-left: 685px;
+	height: 30px;
+}
+#x25{
+	margin-top: 510px;
+	margin-left: 749px;
+}
+#x26{
+	margin-top: 432px;
+	margin-left: 781px;
+	height: 30px;
+}
+#x27{
+	margin-top: 388px;
+	margin-left: 765px;
+	height: 30px;
+}
+#x28{
+	margin-top: 348px;
+	margin-left: 756px;
+	height: 30px;
+}
+#x29{
+    margin-top: 288px;
+    margin-left: 733px;
+    height: 30px;
+}
+#x30{
+	margin-top: 552px;
+	margin-left: 562px;
+	height: 30px;
+}
+#x31{
+	margin-top: 532px;
+	margin-left: 615px;
+	height: 30px;
+}
+#x32{
+	margin-top: 464px;
+	margin-left: 580px;
+	height: 30px;
+}
+#x33{
+	margin-top: 495px;
+	margin-left: 692px;
+	height: 30px;
+}
+#x34{
+    margin-top: 449px;
+    margin-left: 671px;
+    height: 30px;
+}
+#x35{
+	margin-top: 398px;
+    margin-left: 645px;
+    height: 30px;
+}
+#x36{
+    margin-top: 566px;
+    margin-left: 483px;
+    height: 30px;
+}
+#x37{
+    margin-top: 501px;
+    margin-left: 468px;
+    height: 30px;
+}
+#x38{
+    margin-top: 432px;
+    margin-left: 479px;
+    height: 30px;
+}
+#x39{
+    margin-top: 387px;
+    margin-left: 545px;
+    height: 30px;
+}
+#x40{
+    margin-top: 326px;
+    margin-left: 639px;
+    height: 30px;
+}
+#x41 {
+    margin-top: 204px;
+    margin-left: 692px;
+    height: 30px;
+}
+#x42 {
+    margin-top: 164px;
+    margin-left: 615px;
+    height: 30px;
+}
+#x43 {
+    margin-top: 129px;
+    margin-left: 564px;
+    height: 30px;
+}
+#x44 {
+    margin-top: 86px;
+    margin-left: 516px;
+    height: 30px;
+}
+#x45 {
+    margin-top: 69px;
+    margin-left: 422px;
+}
+#x46 {
+    margin-top: 81px;
+    margin-left: 357px;
+    height: 30px;
+}
+#x47 {
+    margin-top: 110px;
+    margin-left: 296px;
+    height: 30px;
+}
+#x48 {
+    margin-top: 142px;
+    margin-left: 224px;
+    height: 30px;
+}
+#x49 {
+    margin-top: 167px;
+    margin-left: 150px;
+    height: 30px;
+}
+#x50 {
+    margin-top: 219px;
+    margin-left: 492px;
+    height: 30px;
+}
+#x51 {
+    margin-top: 175px;
+    margin-left: 420px;
+    height: 30px;
+}
+#x52 {
+    margin-top: 244px;
+    margin-left: 393px;
+    height: 30px;
+}
+#x53 {
+    margin-top: 134px;
+    margin-left: 472px;
+    height: 30px;
+}
+#x54 {
+    margin-top: 191px;
+    margin-left: 347px;
+    height: 30px;
+}
+#x55 {
+    margin-top: 250px;
+    margin-left: 307px;
+    height: 30px;
+}
+#x56 {
+    margin-top: 254px;
+    margin-left: 611px;
+    height: 30px;
+}
+#x57 {
+    margin-top: 303px;
+    margin-left: 514px;
+    height: 30px;
+}
+#x58 {
+    margin-top: 333px;
+    margin-left: 401px;
+    height: 30px;
+}
+#x59 {
+    margin-top: 317px;
+    margin-left: 306px;
+    height: 30px;
+}
+#x60 {
+    margin-top: 233px;
+    margin-left: 236px;
+    height: 30px;
+}

@@ -10,13 +10,15 @@ import { ForhonorService } from './forhonor.service';
 import { TileComponent } from './tile/tile.component';
 
 import { PopoverModule } from 'ngx-bootstrap';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UiComponent,
     MapComponent,
-    TileComponent
+    TileComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

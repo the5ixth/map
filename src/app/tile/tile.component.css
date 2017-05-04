@@ -32,15 +32,15 @@ img {
 
 
 .vk-isolated {
-  -webkit-filter: hue-rotate(90deg) invert(100%) brightness(75%) opacity(15%);
-  filter: hue-rotate(90deg) invert(100%) brightness(75%) opacity(15%);
+  -webkit-filter: hue-rotate(90deg) invert(100%) brightness(75%) opacity(30%);
+  filter: hue-rotate(90deg) invert(100%) brightness(75%) opacity(30%);
 }
 .kn-isolated {
-  -webkit-filter: hue-rotate(0deg) opacity(15%);
-  filter: hue-rotate(0deg) opacity(15%);
+  -webkit-filter: hue-rotate(0deg) opacity(30%);
+  filter: hue-rotate(0deg) opacity(30%);
 }
 
 .sm-isolated {
-  -webkit-filter: hue-rotate(120deg) brightness(90%) opacity(15%);
-  filter: hue-rotate(120deg) brightness(90%) opacity(15%);
+  -webkit-filter: hue-rotate(120deg) brightness(90%) opacity(30%);
+  filter: hue-rotate(120deg) brightness(90%) opacity(30%);
 }
