@@ -8,9 +8,10 @@ import { UiComponent } from './ui/ui.component';
 import { MapComponent } from './map/map.component';
 import { ForhonorService } from './forhonor.service';
 import { TileComponent } from './tile/tile.component';
+import { BannerComponent } from './banner/banner.component';
 
 import { PopoverModule } from 'ngx-bootstrap';
-import { BannerComponent } from './banner/banner.component';
+import { ProgressbarModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { BannerComponent } from './banner/banner.component';
     BrowserModule,
     FormsModule,
     PopoverModule.forRoot(),
+    ProgressbarModule.forRoot(),
     HttpModule
   ],
   providers: [

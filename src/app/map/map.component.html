@@ -1,19 +1,6 @@
 
 <div class="map_div">
+
   <app-tile *ngFor="let k of tileKeys()" [id]="k" [tile]="tiles[k]"></app-tile>
   <!--<img src="../../assets/map.png">-->
-  <div class="right_box">
-    <div class="mg-10">
-      <h3>Assets Attacking</h3>
-      <p>Knights: <span class="pull-right">{{dta?.numWarAssetsDeployedEnemy.kn | number }}</span></p>
-      <p>Viking: <span class="pull-right"> {{dta?.numWarAssetsDeployedEnemy.vk | number }}</span></p>
-      <p>Samurai:  <span class="pull-right">{{dta?.numWarAssetsDeployedEnemy.sm | number }}</span></p>
-    </div>
-    <div class="mg-10">
-      <h3>Assets Defending</h3>
-      <p>Knights: <span class="pull-right">{{dta?.numWarAssetsDeployedFriendly.kn | number }}</span></p>
-      <p>Viking: <span class="pull-right"> {{dta?.numWarAssetsDeployedFriendly.vk | number }}</span></p>
-      <p>Samurai:  <span class="pull-right">{{dta?.numWarAssetsDeployedFriendly.sm | number }}</span></p>
-    </div>
-  </div>
 </div>

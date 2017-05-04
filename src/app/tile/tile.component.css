@@ -2,6 +2,11 @@ img {
   position: absolute;
 }
 
+.tile{
+  padding-left: 118px;
+}
+
+
 .vk {
   -webkit-filter: hue-rotate(90deg) invert(75%) brightness(95%);
   filter: hue-rotate(90deg) invert(75%) brightness(95%) ;
@@ -43,4 +48,21 @@ img {
 .sm-isolated {
   -webkit-filter: hue-rotate(120deg) brightness(90%) opacity(30%);
   filter: hue-rotate(120deg) brightness(90%) opacity(30%);
+}
+@media (min-width: 1200px){
+  .large img{
+    display:block;
+  }
+  .small img{
+    display: none;
+  }
+}
+
+@media (max-width: 1200px){
+  .large img{
+    display: none;
+  }
+  .small img{
+    display: block;
+  }
 }

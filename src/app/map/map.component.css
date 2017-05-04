@@ -1,7 +1,15 @@
-#map_div{
+.map_div{
 	display: block;
 	position: relative;
-  background-color: black;
+	background-color: black;
+}
+@media (min-width: 1200px){
+	.map_div{
+		display: block;
+		position: relative;
+		background-color: black;
+		padding-left: 118px;
+	}
 }
 img{
 	position: absolute;

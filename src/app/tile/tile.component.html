@@ -1,5 +1,4 @@
 
-<a href="#">
   <template #popTemplate>
     <div >
       <p *ngIf="tile?.factionStrengths.sm != '0'">
@@ -28,19 +27,84 @@
       </p>
     </div>
   </template>
-  <div *ngIf="tile?.frontline">
-    <img id='t{{tile?.id}}' src="../../assets/tiles/colored/{{ tile?.id }}.png" class="{{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}" [popover]="popTemplate"  popoverTitle="Assets Deployed" triggers="mouseenter:mouseleave">
-    <div *ngIf="tile?.factionStrengths.vk > tile?.factionStrengths.sm && tile?.factionStrengths.vk > tile?.factionStrengths.kn && tile?.owningFaction != 'vk'">
-      <img id='x{{tile?.id}}' src="../../assets/images/contested.png" class="vk-frontline">
+  <div *ngIf="tile?.frontline" class="large">
+    <img id='t{{tile?.id}}' 
+         src="../../assets/tiles/colored/{{ tile?.id }}.png" 
+         class="{{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}" 
+         [popover]="popTemplate"  
+         popoverTitle="Assets Deployed" 
+         triggers="mouseenter:mouseleave">
+    <div *ngIf="( tile?.factionStrengths.vk > tile?.factionStrengths.sm || tile?.factionStrengths.sm == null ) && 
+                ( tile?.factionStrengths.vk > tile?.factionStrengths.kn || tile?.factionStrengths.kn == null ) && 
+                tile?.owningFaction != 'vk'">
+      <img id='x{{tile?.id}}' 
+           src="../../assets/images/contested.png" 
+           class="vk-frontline"
+           [popover]="popTemplate"  
+           popoverTitle="Assets Deployed" 
+           triggers="mouseenter:mouseleave">
     </div>
-    <div *ngIf="tile?.factionStrengths.kn > tile?.factionStrengths.sm && tile?.factionStrengths.kn > tile?.factionStrengths.vk && tile?.owningFaction != 'kn'">
-      <img id='x{{tile?.id}}' src="../../assets/images/contested.png" class="kn-frontline">
+    <div *ngIf="( tile?.factionStrengths.kn > tile?.factionStrengths.sm || tile?.factionStrengths.sm == null ) && 
+                ( tile?.factionStrengths.kn > tile?.factionStrengths.vk || tile?.factionStrengths.vk == null ) && 
+                tile?.owningFaction != 'kn' ">
+      <img id='x{{tile?.id}}' 
+           src="../../assets/images/contested.png" 
+           class="kn-frontline"
+           [popover]="popTemplate"  
+           popoverTitle="Assets Deployed" 
+           triggers="mouseenter:mouseleave">
     </div>
-    <div *ngIf="tile?.factionStrengths.sm > tile?.factionStrengths.vk && tile?.factionStrengths.sm > tile?.factionStrengths.kn && tile?.owningFaction != 'sm'">
-      <img id='x{{tile?.id}}' src="../../assets/images/contested.png" class="sm-frontline">
+    <div *ngIf="( tile?.factionStrengths.sm > tile?.factionStrengths.vk || tile?.factionStrengths.vk == null ) && 
+                ( tile?.factionStrengths.sm > tile?.factionStrengths.kn || tile?.factionStrengths.kn == null)  &&
+                 tile?.owningFaction != 'sm' ">
+      <img id='x{{tile?.id}}' 
+           src="../../assets/images/contested.png" 
+           class="sm-frontline"
+           [popover]="popTemplate"  
+           popoverTitle="Assets Deployed" 
+           triggers="mouseenter:mouseleave">
     </div>
   </div>
-  <div *ngIf="!tile?.frontline">
-    <img id='t{{tile?.id}}' src="../../assets/tiles/colored/{{ tile?.id }}.png" class="{{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}" >
+  <div *ngIf="!tile?.frontline" class="large">
+    <img id='t{{tile?.id}}' src="../../assets/tiles/colored/{{ tile?.id }}.png" class=" {{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}" >
   </div>
-</a>
+
+
+  <div *ngIf="tile?.frontline" class="small">
+    <img id='m{{tile?.id}}' 
+         src="../../assets/tiles/mobile_colored/{{ tile?.id }}.png" 
+         class="{{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}" 
+         [popover]="popTemplate"  
+         popoverTitle="Assets Deployed" >
+    <div *ngIf="( tile?.factionStrengths.vk > tile?.factionStrengths.sm || tile?.factionStrengths.sm == null ) && 
+                ( tile?.factionStrengths.vk > tile?.factionStrengths.kn || tile?.factionStrengths.kn == null ) && 
+                tile?.owningFaction != 'vk'">
+      <img id='mx{{tile?.id}}' 
+           src="../../assets/images/contested.png" 
+           class="vk-frontline"
+           [popover]="popTemplate"  
+           popoverTitle="Assets Deployed" >
+    </div>
+    <div *ngIf="( tile?.factionStrengths.kn > tile?.factionStrengths.sm || tile?.factionStrengths.sm == null ) && 
+                ( tile?.factionStrengths.kn > tile?.factionStrengths.vk || tile?.factionStrengths.vk == null ) && 
+                tile?.owningFaction != 'kn' ">
+      <img id='mx{{tile?.id}}' 
+           src="../../assets/images/contested.png" 
+           class="kn-frontline"
+           [popover]="popTemplate"  
+           popoverTitle="Assets Deployed" >
+    </div>
+    <div *ngIf="( tile?.factionStrengths.sm > tile?.factionStrengths.vk || tile?.factionStrengths.vk == null ) && 
+                ( tile?.factionStrengths.sm > tile?.factionStrengths.kn || tile?.factionStrengths.kn == null)  &&
+                 tile?.owningFaction != 'sm' ">
+      <img id='mx{{tile?.id}}' 
+           src="../../assets/images/contested.png" 
+           class="sm-frontline"
+           [popover]="popTemplate"  
+           popoverTitle="Assets Deployed">
+    </div>
+  </div>
+  <div *ngIf="!tile?.frontline" class="small">
+    <img id='m{{tile?.id}}' src="../../assets/tiles/mobile_colored/{{ tile?.id }}.png" class=" {{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}" >
+  </div>
+
