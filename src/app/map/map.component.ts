@@ -8,7 +8,7 @@ import { ForhonorService } from '../forhonor.service';
 })
 export class MapComponent implements OnInit {
   tiles: Object;
-  dta: Object;
+  dta: any;
   errorMsg: any;
   fhSub: any;
 

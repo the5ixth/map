@@ -7,7 +7,7 @@ import { ForhonorService } from '../forhonor.service';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent implements OnInit {
-  dta: Object;
+  dta: any;
   errorMsg: any;
   fhSub: any;
 

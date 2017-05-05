@@ -21,7 +21,7 @@ export class ForhonorService {
 
   getPast(): Observable<any> {
     return this.http.get(`${this.apiUrl}${this.currentTurn}.json`).map(
-      data => data.json(),
+      data => <any>data.json(),
       err => err
     );
   }
