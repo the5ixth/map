@@ -6,6 +6,16 @@ body{
 	background-color: #efefef;
 }
 
+.container{
+	min-width: 600px;
+}
+.container-fluid{
+	min-width: 600px;
+}
+.navbar{
+	min-width: 600px;
+}
+
 #loading{
 	display: block;
 	width: 100%;
