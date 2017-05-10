@@ -2,10 +2,30 @@
 	.map_div{
 		display: block;
 		width: 900px;
+		height: 700px;
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		background-color: black;
+	}
+
+	#kn_logo{
+		display: block;
+		margin-top: 475px;
+		margin-left: 113px;
+		height: 75px;
+
+	}
+	#vk_logo{
+		display: block;
+		margin-top: 55px;
+		margin-left: 408px;
+		height: 75px;
+	}
+	#sm_logo{
+		display: block;
+		margin-top: 495px;
+		margin-left: 741px;
+		height: 75px;
 	}
 }
 @media (max-width: 1200px) {
@@ -20,6 +40,25 @@
 		margin-right: auto;
 		position: relative;
 		
+	}
+	#kn_logo{
+		display: block;
+		margin-top: 367px;
+		margin-left: 35px;
+		height: 50px;
+
+	}
+	#vk_logo{
+		display: block;
+		margin-top: 97px;
+		margin-left: 231px;
+		height: 50px;
+	}
+	#sm_logo{
+		display: block;
+		margin-top: 374px;
+		margin-left: 437px;
+		height: 50px;
 	}
 }
 img{
@@ -39,3 +78,4 @@ img{
 .mg-10{
 	margin: 10px;
 }
+

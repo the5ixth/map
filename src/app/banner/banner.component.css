@@ -19,3 +19,6 @@
 .losing {
     color: red;
 }
+.alert{
+    padding: 10px;
+}

@@ -12,6 +12,7 @@ import { BannerComponent } from './banner/banner.component';
 
 import { PopoverModule } from 'ngx-bootstrap';
 import { ProgressbarModule } from 'ngx-bootstrap';
+import { AlertModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ProgressbarModule } from 'ngx-bootstrap';
     FormsModule,
     PopoverModule.forRoot(),
     ProgressbarModule.forRoot(),
+    AlertModule.forRoot(),
     HttpModule
   ],
   providers: [
