@@ -1,0 +1,5 @@
+@media ( max-width: 1200px ){
+    .form-group input{
+        max-width: 75px;
+    }
+}

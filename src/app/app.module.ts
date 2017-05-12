@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { UiComponent } from './ui/ui.component';
@@ -28,6 +29,22 @@ import { AlertModule } from 'ngx-bootstrap';
     PopoverModule.forRoot(),
     ProgressbarModule.forRoot(),
     AlertModule.forRoot(),
+    RouterModule.forRoot([
+      {
+        path: '',
+        component: BannerComponent,
+        children: [
+          { path: '', component: MapComponent }
+        ]
+      },
+      {
+        path: 'archived/:S/:R/:T',
+        component: BannerComponent,
+        children: [
+          { path: '', component: MapComponent }
+        ]
+      }
+    ]),
     HttpModule
   ],
   providers: [

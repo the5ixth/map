@@ -7,7 +7,7 @@ import 'rxjs/add/operator/map';
 export class ForhonorService {
 
   currentTurn: string = 'S1R3T44';
-  apiUrl: string = 'https://metagame.forhonor.ubisoft.com/3022535332/WorldState/current/';
+  apiUrl: string = 'https://metagame.forhonor.ubisoft.com/3022535332/WorldState/archive/';
   currentState: string = 'https://metagame.forhonor.ubisoft.com/3022535332/WorldState-current'
 
   constructor(private http: Http) { }
@@ -19,8 +19,8 @@ export class ForhonorService {
     );
   }
 
-  getPast(): Observable<any> {
-    return this.http.get(`${this.apiUrl}${this.currentTurn}.json`).map(
+  getPast(S: number, R: number, T: number): Observable<any> {
+    return this.http.get(`${this.apiUrl}S${S}R${R}T${T}.json`).map(
       data => <any>data.json(),
       err => err
     );

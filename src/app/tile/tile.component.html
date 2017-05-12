@@ -1,4 +1,4 @@
-<template #popTemplate>
+<ng-template #popTemplate>
   <div>
     <p *ngIf="tile?.factionStrengths.sm != '0'">
       <span *ngIf="tile?.factionStrengths.sm != null">
@@ -25,7 +25,7 @@
       </span>
     </p>
   </div>
-</template>
+</ng-template>
 <div *ngIf="tile?.frontline" class="large">
   <img id='t{{tile?.id}}' src="../../assets/tiles/colored/{{ tile?.id }}.png" class="{{ tile?.owningFaction}}{{ tile?.frontline ? '-frontline' : '' }}{{ tile?.isolated ? '-isolated' : '' }}"
     [popover]="popTemplate" popoverTitle="Assets Deployed" triggers="mouseenter:mouseleave">

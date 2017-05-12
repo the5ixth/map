@@ -1,7 +1,14 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">ForHonor Faction War Map</a>
-
+    <a class="navbar-brand" href="#">Current Turn</a>
+    <div class="navbar-form navbar-left">
+      <div class="form-group">
+        <input type="number" placeholder="season" [(ngModel)]="season">
+        <input type="number" placeholder="round"[(ngModel)]="round">
+        <input type="number" placeholder="turn"[(ngModel)]="turn">
+        <button type="submit"(click)="goToTurn(season, round, turn)"  >Go To Turn</button>
+      </div>
+    </div>
   </div><!-- /.container-fluid -->
 </nav>
 

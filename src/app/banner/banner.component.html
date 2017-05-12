@@ -27,7 +27,7 @@
     <div class="col-xs-4">
       <a href="https://www.reddit.com/r/ForHonorVikings/"><img src="../../assets/images/vk_logo.png" ></a>
       <h2>
-        Viking: 
+        Vikings: 
         {{dta?.turnScoreAtTurnBeginning.vk}} 
         <span class="winning" *ngIf="dta?.predictiveTurnScore.vk - dta?.turnScoreAtTurnBeginning.vk > 0">
           +{{dta?.predictiveTurnScore.vk - dta?.turnScoreAtTurnBeginning.vk }}
@@ -55,3 +55,5 @@
 
 
 <alert class="alert" type="success"> Click on a tile to see how many war assets have been deployed</alert>
+
+<router-outlet></router-outlet>
